@@ -451,21 +451,15 @@ const Portfolio = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center group">
                   <span className="group-hover:text-blue-300 transition-colors">Years of Experience</span>
-                  <span className="text-blue-400 font-bold text-2xl">
-                    <AnimatedCounter end={2} suffix="+" />
-                  </span>
+                  <span className="text-blue-400 font-bold text-2xl">2+</span>
                 </div>
                 <div className="flex justify-between items-center group">
                   <span className="group-hover:text-purple-300 transition-colors">Projects Completed</span>
-                  <span className="text-purple-400 font-bold text-2xl">
-                    <AnimatedCounter end={2} suffix="+" />
-                  </span>
+                  <span className="text-purple-400 font-bold text-2xl">10+</span>
                 </div>
                 <div className="flex justify-between items-center group">
                   <span className="group-hover:text-green-300 transition-colors">Technologies Mastered</span>
-                  <span className="text-green-400 font-bold text-2xl">
-                    <AnimatedCounter end={15} suffix="+" />
-                  </span>
+                  <span className="text-green-400 font-bold text-2xl">15+</span>
                 </div>
                 <div className="flex justify-between items-center group">
                   <span className="group-hover:text-yellow-300 transition-colors">Current GPA</span>
