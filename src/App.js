@@ -75,7 +75,7 @@ const Portfolio = () => {
       period: 'Jan 2024 - July 2025',
       location: 'Navi Mumbai, Maharashtra',
       achievements: [
-        'Developed full-stack features for Jio CloudXp's Domain Analytics module using Angular, Java, and Spring Boot',
+        "Developed full-stack features for Jio CloudXp's Domain Analytics module using Angular, Java, and Spring Boot",
         'Built 20+ responsive Angular components with real-time data integration, increasing user engagement by 30%',
         'Engineered 15+ scalable microservices with Spring Security OAuth2, reducing unauthorized access by 40%',
         'Worked in 10-member Agile team achieving 95% on-time delivery rate'
