@@ -75,7 +75,7 @@ const Portfolio = () => {
       period: 'Jan 2024 - July 2025',
       location: 'Navi Mumbai, Maharashtra',
       achievements: [
-        'Developed full-stack features for Domain Analytics module using Angular, Java, and Spring Boot',
+        'Developed full-stack features for Jio CloudXp's Domain Analytics module using Angular, Java, and Spring Boot',
         'Built 20+ responsive Angular components with real-time data integration, increasing user engagement by 30%',
         'Engineered 15+ scalable microservices with Spring Security OAuth2, reducing unauthorized access by 40%',
         'Worked in 10-member Agile team achieving 95% on-time delivery rate'
@@ -190,9 +190,7 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
-                I'm a passionate software developer with expertise in full-stack development, microservices architecture, 
-                and cloud technologies. Currently pursuing my Master's degree at NYU while building scalable solutions 
-                at Jio Platforms Limited.
+                I'm a passionate software developer with expertise in full-stack development, microservices architecture, and cloud technologies. Currently pursuing my Master's degree in Computer Science at NYU while working on building scalable and impactful solutions.
               </p>
               
               <div className="grid grid-cols-2 gap-6">
@@ -207,7 +205,7 @@ const Portfolio = () => {
                   <MapPin className="w-8 h-8 text-indigo-600 mb-3" />
                   <h3 className="font-semibold mb-2 text-gray-800">Location</h3>
                   <p className="text-sm text-gray-600">New York, NY</p>
-                  <p className="text-sm text-gray-600">+91 9324389863</p>
+                  <p className="text-sm text-gray-600">+1 (551) 424-8886</p>
                 </div>
               </div>
             </div>
