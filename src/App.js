@@ -67,7 +67,7 @@ const Portfolio = () => {
       tech: ['Python', 'TensorFlow', 'OpenCV', 'C++', 'Raspberry Pi'],
       description: 'IoT-based irrigation system with CNN-powered pest detection for efficient water management and crop protection.',
       highlights: ['IoT Integration', 'CNN for Pest Detection', 'Automated Irrigation', 'Real-time Monitoring'],
-      url: 'https://github.com/Shreyas191/Smart-Contact-Manager'
+      url: 'https://github.com/Shreyas191/Smart-Irrigation-and-Worm-Detection'
     },
     {
       title: 'Discount Coupon APIs',
@@ -75,7 +75,7 @@ const Portfolio = () => {
       tech: ['Java', 'Spring Boot', 'REST APIs', 'Hibernate', 'Spring Data JPA', 'RabbitMQ'],
       description: 'Developed RESTful APIs for an Online Shopping Portal to handle product browsing, cart management, order processing, and user authentication, ensuring secure transactions and scalable integration.',
       highlights: ['RESTful API Design', 'Cart & Order Management', 'Secure Transactions', 'Database Integration with Hibernate', 'Event-driven Messaging with RabbitMQ'],
-      url: 'https://github.com/Shreyas191/Smart-Irrigation-and-Worm-Detection'
+      url: 'https://github.com/Shreyas191/E-Commerce-APIs'
     },
     {
       title: 'Online Gym Portal',
@@ -441,7 +441,7 @@ const Portfolio = () => {
             <a href="tel:+919324389863" className="bg-indigo-50 p-6 rounded-xl border border-indigo-200 hover:shadow-md transition-shadow duration-200 text-center">
               <Phone className="w-8 h-8 text-indigo-600 mx-auto mb-3" />
               <h3 className="font-semibold mb-2 text-gray-800">Phone</h3>
-              <p className="text-gray-600 text-sm">+91 9324389863</p>
+              <p className="text-gray-600 text-sm">+1 (551) 424-8886</p>
             </a>
             
             <div className="bg-green-50 p-6 rounded-xl border border-green-200 text-center">
