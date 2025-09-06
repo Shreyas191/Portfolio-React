@@ -6,7 +6,7 @@ const Portfolio = () => {
   const [currentRole, setCurrentRole] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
   
-  const roles = ['Software Developer', 'Full Stack Engineer', 'Microservices Architect', 'Cloud Enthusiast'];
+  const roles = ['Software Developer', 'Full Stack Engineer', 'Microservices'];
 
   // Simple typewriter effect
   useEffect(() => {
@@ -169,9 +169,9 @@ const Portfolio = () => {
           
           <div className="flex justify-center space-x-4 mb-8">
             {[
-              { icon: Mail, href: "mailto:sk12898@nyu.edu", color: "bg-blue-100 hover:bg-blue-200 text-blue-600" },
-              { icon: Linkedin, href: "#", color: "bg-indigo-100 hover:bg-indigo-200 text-indigo-600" },
-              { icon: Github, href: "#", color: "bg-gray-100 hover:bg-gray-200 text-gray-700" }
+              { icon: Mail, href: "mailto:shreyaskaldate23@gmail.edu", color: "bg-blue-100 hover:bg-blue-200 text-blue-600" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/shreyaskaldate/", color: "bg-indigo-100 hover:bg-indigo-200 text-indigo-600" },
+              { icon: Github, href: "https://github.com/Shreyas191", color: "bg-gray-100 hover:bg-gray-200 text-gray-700" }
             ].map(({ icon: Icon, href, color }, index) => (
               <a 
                 key={index}
