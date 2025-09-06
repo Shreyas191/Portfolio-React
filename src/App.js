@@ -143,7 +143,11 @@ const Portfolio = () => {
         <div className="text-center px-4 max-w-4xl">
           <div className="mb-6">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-4xl md:text-5xl font-bold text-white shadow-lg">
-              SK
+              <img
+                src="/sk1.jpg"  
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           
