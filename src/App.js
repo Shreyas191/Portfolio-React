@@ -65,7 +65,23 @@ const Portfolio = () => {
       tech: ['Python', 'TensorFlow', 'OpenCV', 'C++', 'Raspberry Pi'],
       description: 'IoT-based irrigation system with CNN-powered pest detection for efficient water management and crop protection.',
       highlights: ['IoT Integration', 'CNN for Pest Detection', 'Automated Irrigation', 'Real-time Monitoring'],
+    },
+    {
+      title: 'Discount Coupon APIs',
+      period: 'Sept 2024 - Oct 2024',
+      tech: ['Java', 'Spring Boot', 'REST APIs', 'Hibernate', 'Spring Data JPA', 'RabbitMQ'],
+      description: 'Developed RESTful APIs for an Online Shopping Portal to handle product browsing, cart management, order processing, and user authentication, ensuring secure transactions and scalable integration.',
+      highlights: ['RESTful API Design', 'Cart & Order Management', 'Secure Transactions', 'Database Integration with Hibernate', 'Event-driven Messaging with RabbitMQ']
+    },
+    {
+      title: 'Online Gym Portal',
+      period: 'Nov 2024 - Feb 2025',
+      tech: ['Angular', 'Spring Boot', 'MySQL'],
+      description: 'Built a digital platform enabling users to access personalized fitness plans, track workout progress, and participate in live or recorded sessions. The system supports both trainers and fitness enthusiasts with comprehensive tools for achieving fitness goals.',
+      highlights: ['Personalized Fitness Plans', 'Workout Tracking', 'Live & Recorded Sessions', 'Trainer & User Portal', 'Full-stack Development with Angular & Spring Boot']
     }
+
+
   ];
 
   const experiences = [
