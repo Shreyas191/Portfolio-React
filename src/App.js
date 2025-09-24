@@ -51,7 +51,7 @@ const Portfolio = () => {
       tech: ['Java', 'Spring Boot', 'REST APIs', 'MySQL'],
       description: 'Designed microservices architecture with Spring Cloud, implemented OAuth2 security, and utilized Docker & Kubernetes for scalability.',
       highlights: ['Microservices Architecture', 'Spring Cloud Config', 'OAuth2 Security', 'Docker & Kubernetes'],
-      url: 'https://github.com/Shreyas191/microservices'
+      url: 'https://github.com/Shreyas191/Online-Banking-Application'
     },
     {
       title: 'Smart Contact Manager',
@@ -252,7 +252,7 @@ const Portfolio = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Current GPA</span>
-                  <span className="text-yellow-600 font-bold text-2xl">3.67/4</span>
+                  <span className="text-yellow-600 font-bold text-2xl">3.95/4</span>
                 </div>
               </div>
             </div>
