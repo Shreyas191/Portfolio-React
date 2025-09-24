@@ -169,7 +169,7 @@ const Portfolio = () => {
           
           <div className="flex justify-center space-x-4 mb-8">
             {[
-              { icon: Mail, href: "mailto:shreyaskaldate23@gmail.edu", color: "bg-blue-100 hover:bg-blue-200 text-blue-600" },
+              { icon: Mail, href: "mailto:shreyaskaldate23@gmail.com", color: "bg-blue-100 hover:bg-blue-200 text-blue-600" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/shreyaskaldate/", color: "bg-indigo-100 hover:bg-indigo-200 text-indigo-600" },
               { icon: Github, href: "https://github.com/Shreyas191", color: "bg-gray-100 hover:bg-gray-200 text-gray-700" }
             ].map(({ icon: Icon, href, color }, index) => (
