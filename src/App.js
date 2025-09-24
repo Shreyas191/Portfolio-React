@@ -185,7 +185,7 @@ const Portfolio = () => {
           
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a
-              href="/Shreyas_Resume_Updated-2025.pdf"
+              href="/Shreyas-Kaldate-Resume-Updated.pdf"
               download
               className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center space-x-2 shadow-md"
             >
