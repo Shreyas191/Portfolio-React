@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin, Download, Code, Database, Server, Monitor, ChevronDown, ExternalLink, Calendar, Award, GraduationCap } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, MapPin, Download, Code, Database, Server, Monitor, ChevronDown, ExternalLink, Calendar, Award, GraduationCap, Brain } from 'lucide-react';
 
 const Portfolio = () => {
   const [typedText, setTypedText] = useState('');
   const [currentRole, setCurrentRole] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
   
-  const roles = ['Software Developer', 'Full Stack Engineer', 'Microservices'];
+  const roles = ['Software Developer', 'Full Stack Engineer', 'AI/ML Engineer'];
 
   // Simple typewriter effect
   useEffect(() => {
@@ -39,12 +39,45 @@ const Portfolio = () => {
 
   const skills = {
     languages: ['Java', 'C', 'C++', 'HTML', 'CSS', 'TypeScript', 'Python', 'SQL'],
-    technologies: ['Spring Boot', 'Hibernate', 'REST APIs', 'Microservices', 'Angular', 'Bootstrap'],
-    tools: ['MySQL', 'PostgreSQL', 'Postman', 'Git', 'Docker', 'Excel', 'PowerPoint'],
+    technologies: ['Spring Boot', 'Hibernate', 'REST APIs', 'Microservices', 'Angular', 'React.js', 'FastAPI'],
+    aiml: ['LLMs', 'RAG', 'LangChain', 'Gemini AI', 'ChromaDB', 'TensorFlow', 'Machine Learning'],
+    tools: ['MySQL', 'PostgreSQL', 'Firebase', 'Postman', 'Git', 'Docker', 'Excel'],
     platforms: ['IntelliJ', 'VS Code', 'Eclipse', 'GitHub', 'GitLab', 'Gitea', 'Jupyter Notebook', 'Azure DevOps']
   };
 
   const projects = [
+    {
+      title: 'FinSight AI – Intelligent Financial Report Analyzer',
+      period: 'Sept 2025 - Present',
+      tech: ['React.js', 'FastAPI', 'Python', 'ChromaDB', 'RAG', 'LLMs', 'ReportLab'],
+      description: 'AI-powered financial report analyzer leveraging Retrieval-Augmented Generation (RAG) to extract insights, KPIs, and sentiments from unstructured PDF documents.',
+      highlights: ['Document Chunking & Embeddings', 'Contextual Retrieval with ChromaDB', 'Advanced Summarization & Sentiment Analysis', 'Multi-document Financial Evaluations', 'Interactive PDF Export'],
+      url: 'https://github.com/Shreyas191'
+    },
+    {
+      title: 'NYC Transit Hub – Real-Time Transit Information System',
+      period: 'Sept 2025 - Present',
+      tech: ['React', 'Python', 'Firebase', 'LangChain', 'RAG', 'Gemini AI'],
+      description: 'Responsive transit dashboard with AI-driven chat assistant using LangChain and Gemini AI for real-time MTA data retrieval and context-aware responses.',
+      highlights: ['Real-time Transit Visualization', 'Agentic AI Framework', 'RAG Pipeline Implementation', 'Prompt Optimization', 'Dynamic API Selection & Reasoning'],
+      url: 'https://github.com/Shreyas191'
+    },
+    {
+      title: 'Course Bidding System',
+      period: 'Sept 2024 - Dec 2024',
+      tech: ['Java', 'Spring Boot', 'MySQL', 'Railway'],
+      description: 'Database-driven course bidding application with sophisticated bidding mechanisms, waitlist management, and automatic promotion systems using stored procedures and triggers.',
+      highlights: ['Complex Transaction Management', 'Stored Procedures & Triggers', 'Automatic Refund System', 'Waitlist Promotion Logic', 'Foreign Key Constraint Handling'],
+      url: 'https://github.com/Shreyas191'
+    },
+    {
+      title: 'OrbiNasaSense – Spacecraft Anomaly Detection',
+      period: 'Oct 2024 - Nov 2024',
+      tech: ['Python', 'TensorFlow', 'LSTM', 'Linear Regression', 'NASA Telemetry Data'],
+      description: 'Machine learning system for spacecraft anomaly detection using NASA telemetry data with Linear Regression and LSTM neural networks for predictive maintenance.',
+      highlights: ['LSTM Neural Networks', 'Telemetry Analysis', 'Anomaly Detection', 'CubeSat Operations', 'Predictive Maintenance'],
+      url: 'https://github.com/Shreyas191'
+    },
     {
       title: 'Online Banking Application',
       period: 'Apr 2024 - Dec 2024',
@@ -52,22 +85,6 @@ const Portfolio = () => {
       description: 'Designed microservices architecture with Spring Cloud, implemented OAuth2 security, and utilized Docker & Kubernetes for scalability.',
       highlights: ['Microservices Architecture', 'Spring Cloud Config', 'OAuth2 Security', 'Docker & Kubernetes'],
       url: 'https://github.com/Shreyas191/Online-Banking-Application'
-    },
-    {
-      title: 'Smart Contact Manager',
-      period: 'June 2023 - Aug 2023',
-      tech: ['React.js', 'Spring Boot', 'REST APIs', 'MySQL'],
-      description: 'Full-stack application with user authentication, role-based access control, and optimized CRUD operations.',
-      highlights: ['User Authentication', 'Role-based Access', 'Optimized Database Queries', 'Dynamic UI Updates'],
-      url: 'https://github.com/Shreyas191/Smart-Contact-Manager'
-    },
-    {
-      title: 'Smart Irrigation & Worm Detection',
-      period: 'June 2022 - May 2023',
-      tech: ['Python', 'TensorFlow', 'OpenCV', 'C++', 'Raspberry Pi'],
-      description: 'IoT-based irrigation system with CNN-powered pest detection for efficient water management and crop protection.',
-      highlights: ['IoT Integration', 'CNN for Pest Detection', 'Automated Irrigation', 'Real-time Monitoring'],
-      url: 'https://github.com/Shreyas191/Smart-Irrigation-and-Worm-Detection'
     },
     {
       title: 'Discount Coupon APIs',
@@ -85,8 +102,6 @@ const Portfolio = () => {
       highlights: ['Personalized Fitness Plans', 'Workout Tracking', 'Live & Recorded Sessions', 'Trainer & User Portal', 'Full-stack Development with Angular & Spring Boot'],
       url: 'https://github.com/Shreyas191/Online-Gym-Portal'
     }
-
-
   ];
 
   const experiences = [
@@ -163,7 +178,7 @@ const Portfolio = () => {
           </div>
           
           <p className="text-base md:text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Full-stack developer specializing in microservices architecture, cloud platforms, and modern web technologies. 
+            Full-stack developer and AI/ML engineer specializing in microservices architecture, GenAI applications, and cloud platforms. 
             Currently pursuing MS in Computer Science at NYU.
           </p>
           
@@ -215,7 +230,11 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
-                I'm a passionate software developer with expertise in full-stack development, microservices architecture, and cloud technologies. Currently pursuing my Master's degree in Computer Science at NYU while working on building scalable and impactful solutions.
+                I'm a passionate software developer with expertise in full-stack development, microservices architecture, and cutting-edge AI/ML technologies. Currently pursuing my Master's degree in Computer Science at NYU, I specialize in building intelligent, scalable solutions that leverage GenAI capabilities.
+              </p>
+              
+              <p className="text-lg text-gray-600 leading-relaxed">
+                My recent work includes developing AI-powered applications using RAG (Retrieval-Augmented Generation), LangChain, and LLMs for financial analysis and real-time transit information systems. I've also built robust database-driven applications like a Course Bidding System with complex transaction management and OrbiNasaSense, a spacecraft anomaly detection system using machine learning.
               </p>
               
               <div className="grid grid-cols-2 gap-6">
@@ -248,7 +267,7 @@ const Portfolio = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Technologies Mastered</span>
-                  <span className="text-green-600 font-bold text-2xl">15+</span>
+                  <span className="text-green-600 font-bold text-2xl">20+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Current GPA</span>
@@ -348,7 +367,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">Technical Skills</h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
               <Code className="w-8 h-8 text-blue-600 mb-4" />
               <h3 className="text-xl font-bold mb-4 text-blue-700">Languages</h3>
@@ -378,6 +397,24 @@ const Portfolio = () => {
                       <div 
                         className="h-full bg-indigo-500 rounded-full" 
                         style={{width: `${80 + Math.random() * 20}%`}}
+                      ></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            <div className="bg-purple-50 p-6 rounded-xl border border-purple-200">
+              <Brain className="w-8 h-8 text-purple-600 mb-4" />
+              <h3 className="text-xl font-bold mb-4 text-purple-700">AI/ML</h3>
+              <div className="space-y-3">
+                {skills.aiml.map((skill, i) => (
+                  <div key={i} className="flex items-center justify-between">
+                    <span className="text-gray-700">{skill}</span>
+                    <div className="w-16 h-2 bg-purple-200 rounded-full overflow-hidden">
+                      <div 
+                        className="h-full bg-purple-500 rounded-full" 
+                        style={{width: `${85 + Math.random() * 15}%`}}
                       ></div>
                     </div>
                   </div>
@@ -544,8 +581,8 @@ const Portfolio = () => {
           </p>
           <div className="flex justify-center space-x-6">
             {[
-              { icon: Github, href: "#" },
-              { icon: Linkedin, href: "#" },
+              { icon: Github, href: "https://github.com/Shreyas191" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/shreyaskaldate/" },
               { icon: Mail, href: "mailto:sk12898@nyu.edu" }
             ].map(({ icon: Icon, href }, index) => (
               <a 
